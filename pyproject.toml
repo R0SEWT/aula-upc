@@ -3,7 +3,7 @@ name = "aula"
 version = "0.1.0"
 description = "Baja material, grabaciones y entregas pendientes del Aula Virtual UPC (Blackboard Ultra)"
 requires-python = ">=3.11"
-dependencies = ["playwright>=1.47", "typer>=0.12"]
+dependencies = ["playwright>=1.64.0", "typer>=0.27.3"]
 
 [project.scripts]
 aula = "aula.cli:app"
